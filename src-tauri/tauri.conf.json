@@ -5,16 +5,16 @@
   "identifier": "com.tauri-app.app",
   "build": {
     "beforeDevCommand": "npm run dev",
-    "devUrl": "http://localhost:1420",
-    "beforeBuildCommand": "npm run build",
+    "devUrl": "http://localhost:3000",
+    "beforeBuildCommand": "npm run generate",
     "frontendDist": "../dist"
   },
   "app": {
     "windows": [
       {
         "title": "catalogue",
-        "width": 800,
-        "height": 600
+        "width": 1280,
+        "height": 960
       }
     ],
     "security": {
